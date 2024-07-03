@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Random Password Generator</title>
+        <script src="https://kit.fontawesome.com/5bab65d61f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="home">
+            <div class="form">
+                <h1>Generate a <br> <span>random passsword</span></h1>
+                <h2>Never use an insecure password again.</h2>     
+                <button id="generate-btn" onclick="randomizer()">Generate Passwords</button>
+                <hr>
+                    <div id="result-field">
+                        <button id="res-1" onclick="copy()" disabled></button>
+                        <button id="res-2" onclick="copy()" disabled></button>
+                    </div>
+                <p>Implemented by me. Thanks to Scrimba for the Figma Layout!</p>
+                
+            </div>
+
+            <div id="toastBox"></div>
+        </div>
+        <script src="passGen.js"></script>
+    </body>
+</html>
